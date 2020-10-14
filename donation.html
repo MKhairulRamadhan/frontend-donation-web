@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <!-- top bar -->
+    <section class="top-bg">
+        <div class="container">
+            <div class="row top-bar pb-1">
+                <div class="col-md-6 col-sm-3 text-left">
+                    <a target="_blank" href="" class="top-bar"><span class="text-white">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </span></a>
+                    <a target="_blank" href="" class="top-bar"><span class="text-white">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </span></a>
+                    <a target="_blank" href="" class="top-bar"><span class="text-white">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </span></a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UC9o7L-Wtpklz007DFmT3RtA"  class="top-bar"><span class="text-white">
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </span></a>
+                </div>
+                <div class="col-md-6 col-sm-8 text-right">
+                    <span class="text-white text-top">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        +6285270837552 |
+                    </span>
+
+                    <span class="text-white text-top">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        khairulr59@gmail.com
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <!-- end top bar -->
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light nav-bg pb-0" data-toggle="sticky-onscroll">
+        <div class="container">
+            <img src="images/logo.png" alt="logo.png" class="logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- form donation -->
+    <section class="container">
+        <div class="donation">
+            <img src="images/icon-money.png" alt="">
+            <p class="donation-info">Ayo Berdonasi</p>
+            <div class="donation-form">
+                <p>Silakan isi jumlah infak/zakat/shadaqah mu. Insya Allah berkah.</p>
+                <form action="">
+
+                    <div class="row">
+                        <div class="input-group mb-3 col-md-6">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1"><span class="fa fa-user"></span></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Nama Lengkap" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group mb-3 col-md-6">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon2"><span class="fa fa-paper-plane"></span></span>
+                            </div>
+                            <input type="email" class="form-control" placeholder="Email" aria-label="email" aria-describedby="basic-addon2">
+                        </div>
+                        <div class="input-group mb-3 col-md-6">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" for="inputGroupSelect01"><span class="fa fa-chevron-down"></span></label>
+                            </div>
+                            <select class="custom-select" id="inputGroupSelect01">
+                                <option selected>Jenis Donasi...</option>
+                                <option value="1">INFAQ</option>
+                                <option value="2">ZAKAT</option>
+                                <option value="3">SHADAQAH</option>
+                            </select>
+                        </div>
+                        <div class="input-group mb-3 col-md-6">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" for="inputGroupSelect02"><span class="fa fa-chevron-down"></span></label>
+                            </div>
+                            <select class="custom-select" id="inputGroupSelect02">
+                                <option selected>Metode Pembayaran...</option>
+                                <option value="1">BRI</option>
+                                <option value="2">BNI</option>
+                                <option value="3">MANDIRI</option>
+                            </select>
+                        </div>
+                        <div class="input-group mb-3 col-md-6">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon3">Rp.</span></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Jumlah" aria-label="donation" aria-describedby="basic-addon3" id="rupiah">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Keterangan:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <input type="submit" class="btn btn-success" value="Donasi Sekarang">
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- end form donation -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                    <h2 class="footer-heading">Unicare.</h2>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                    <ul class="ftco-footer-social p-0">
+                        <li class="ftco-animate fadeInUp ftco-animated"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="fa fa-twitter"></span></a></li>
+                        <li class="ftco-animate fadeInUp ftco-animated"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li>
+                        <li class="ftco-animate fadeInUp ftco-animated"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
+                        <li class="ftco-animate fadeInUp ftco-animated"><a href="#" data-toggle="tooltip" data-placement="top" title="Youtube"><span class="fa fa-youtube-play"></span></a></li>
+                    </ul>
+                    <p><a href="#" class="btn btn-quarternary">Donate Now</a></p>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                    <h2 class="footer-heading">Latest News</h2>
+                    <div class="block-21 mb-4 d-flex">
+                        <a class="img mr-4 rounded" style="background-image: url(images/image_1.jpg);"></a>
+                        <div class="text">
+                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                            <div class="meta">
+                                <div><a href="#">Jul 20, 2020</a></div>
+                                <div><a href="#">Admin</a></div>
+                                <div><a href="#">19</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-21 mb-4 d-flex">
+                        <a class="img mr-4 rounded" style="background-image: url(images/image_2.jpg);"></a>
+                        <div class="text">
+                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                            <div class="meta">
+                                <div><a href="#">Jul 20, 2020</a></div>
+                                <div><a href="#">Admin</a></div>
+                                <div><a href="#">19</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0">
+                    <h2 class="footer-heading">Quick Links</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="py-2 d-block">Home</a></li>
+                        <li><a href="#" class="py-2 d-block">About</a></li>
+                        <li><a href="#" class="py-2 d-block">Causes</a></li>
+                        <li><a href="#" class="py-2 d-block">New Campaigns</a></li>
+                        <li><a href="#" class="py-2 d-block">Blog</a></li>
+                        <li><a href="#" class="py-2 d-block">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                    <h2 class="footer-heading">Have a Questions?</h2>
+                    <div class="block-23 mb-3">
+                        <ul>
+                            <li><span class="icon fa fa-map"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+                            <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+                            <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@yourdomain.com</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>
+                        Copyright ©<script>document.write(new Date().getFullYear());</script>Rumah Amal Masjid Jami' Unsyiah</a>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <!-- footer -->
+
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</html>
