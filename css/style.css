@@ -267,7 +267,7 @@ label {
     display: block !important;
 }
 
-.btn.btn-secondary:hover {
+.btn.btn-secondary:hover, .btn.btn-secondary:active {
     border: 2px solid #FDDB3A;
     background: transparent;
     color: #FDDB3A;
@@ -281,8 +281,6 @@ label {
     border: 2px solid #FDDB3A;
     color: #fff;
 }
-
-
 
 .btn {
     padding: 12px 16px;
