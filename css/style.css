@@ -39,6 +39,29 @@ body {
     box-shadow:         0px 5px 15px -6px #ccc;
 }
 
+.label-yellow{
+    background-color: #FDDB3A;
+    color: white !important;
+}
+
+.nav-link{
+    transition: all .5s;
+}
+
+.nav-link:hover{
+    transition: all .5s;
+    background-color: #52575D;
+    color: white !important;
+}
+
+.nav-link{
+    padding: 3px 15px !important;
+}
+
+.dropdown-item:hover{
+    background-color: #52575D !important;
+    color: white !important;
+}
 
     /*sticky header position*/
 .sticky.is-sticky {
